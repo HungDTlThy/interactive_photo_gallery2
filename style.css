@@ -1,0 +1,27 @@
+body {
+  margin: 2%;
+  border: 1px solid black;
+  background-color: #6f9dde;
+}
+
+#image {
+  line-height: 650px;
+  width: 575px;
+  height: 650px;
+  border: 5px solid black;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #d97e45;
+  background-repeat: no-repeat;
+  color: #8bdf8e;
+  font-family: Arial, sans-serif;
+  font-size: 150%;
+  background-size: cover;
+}
+
+.preview {
+  width: 10%;
+  margin-left: 10%;
+  margin-top: 10px;
+  border: 10px solid black;
+}
