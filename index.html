@@ -6,18 +6,24 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
-<body>
+<body onload="addTabImage()">
 
-  <div id="image">
-    Hover over an image below to display here.
-  </div>
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
 
-  
-    <img class="preview" alt="BANH MI SIEU NGON" src="images/banhmi.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+     
+    <img class="preview" alt="TSUNAMI" src="images/tsunami.webp" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
     
-    <img class="preview" alt="COM TAM SIEU NGON" src="images/comtam.webp" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="TORNADO" src="images/tornado.avif" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
     
-    <img class="preview" alt="BUN THIT NUONG SIEU NGON" src="images/bunthitnuong.webp" onmouseover="upDate(this)" onmouseout="unDo()">
-  
+    <img class="preview" alt="THUNDERSTORM" src="images/thuder.webp" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="SANDSTORM" src="images/sandstorm.jpg" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    
+    <img class="preview" alt="VOLCANO" src="images/firemountain.webp" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    
+    <img class="preview" alt="FLOOD" src="images/Flood.jpg" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    
 </body>
 </html>

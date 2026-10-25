@@ -1,27 +1,32 @@
 body {
   margin: 2%;
-  border: 1px solid black;
-  background-color: #6f9dde;
+  border: 1px solid #f0a500;
+  background-color: #1f2933;
 }
 
 #image {
   line-height: 650px;
   width: 575px;
   height: 650px;
-  border: 5px solid black;
+  border: 5px solid #f0a500;
   margin: 0 auto;
   text-align: center;
-  background-color: #d97e45;
+  background-color: #2d3b47;
   background-repeat: no-repeat;
-  color: #8bdf8e;
+  color: #f5f7fa;
   font-family: Arial, sans-serif;
   font-size: 150%;
   background-size: cover;
 }
 
 .preview {
-  width: 10%;
-  margin-left: 10%;
+  display: inline-block;
+ 
+  justify-content: center;  
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 50px;
+  margin-left: 5%;
   margin-top: 10px;
-  border: 10px solid black;
+  border: 10px solid #f0a500;
 }
